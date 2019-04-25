@@ -4,13 +4,27 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+### Conference Publications
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+#### Variational Autoencoders with Jointly Optimized Latent Dependency Structure
+*Jiawei He, Yu Gong, Joseph Marino, Greg Mori, Andreas Lehrmann*
+ICLR 2019
+[arXiv](https://arxiv.org/abs/1807.09356)
 
-{% include base_path %}
+#### A General Method for Amortizing Variational Filtering
+*Joseph Marino, Milan Cvitkovic, Yisong Yue*
+NeurIPS 2018
+[arXiv](https://arxiv.org/abs/1811.05090)
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+#### Probabilistic Video Generation using Holistic Attribute Control
+*Jiawei He, Andreas Lehrmann, Joseph Marino, Greg Mori, Leonid Sigal*
+ECCV 2018
+[arXiv](https://arxiv.org/abs/1803.08085)
+
+#### Iterative Amortized Inference
+*Joseph Marino, Yisong Yue, Stephan Mandt*
+ICML 2018
+[arXiv](https://arxiv.org/abs/1807.09356)
+
+
+### Workshop Publications & Manuscripts
